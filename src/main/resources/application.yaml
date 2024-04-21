@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5431/hse_sc
+    username: postgres-user
+    password: postgres-password
+    driver-class-name: org.postgresql.Driver
+
+  cloud:
+    openfeign:
+      client:
+        config:
+          calendarificClient:
+            url: https://calendarific.com/api/v2
+
+calendarific:
+  api:
+    api-key: 3SbwYqk9jBVG7zuy635UtZVATDCrxIQW
+#  h2:
+#    console.enabled: true
