@@ -1,8 +1,7 @@
 package org.hse.template.client.rest.api
 
-import org.hse.template.client.rest.model.Holiday
-import org.hse.template.client.rest.model.HolidayResponse
-import org.hse.template.client.rest.model.Response
+import org.hse.template.client.rest.model.apientity.HolidayResponse
+import org.hse.template.client.rest.model.apientity.Response
 import org.springframework.cloud.openfeign.FeignClient
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestParam

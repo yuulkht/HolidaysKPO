@@ -1,4 +1,4 @@
-package org.hse.template.client.rest.model
+package org.hse.template.client.rest.model.apientity
 
 import io.swagger.v3.oas.annotations.media.Schema
 

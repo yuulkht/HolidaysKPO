@@ -4,8 +4,7 @@ import io.swagger.v3.oas.annotations.media.Schema
 import io.swagger.v3.oas.annotations.responses.ApiResponse
 import io.swagger.v3.oas.annotations.responses.ApiResponses
 import io.swagger.v3.oas.annotations.tags.Tag
-import org.hse.template.client.rest.model.Holiday
-import org.hse.template.client.rest.model.Response
+import org.hse.template.client.rest.model.apientity.Holiday
 
 interface HolidayApi {
 
